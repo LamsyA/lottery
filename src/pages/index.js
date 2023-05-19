@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 
 
 
@@ -7,7 +8,7 @@ export default function Home() {
       className='flex '
     >
     <div>
-      Hello
+     <Navbar/>
     </div>
     </main>
   )
