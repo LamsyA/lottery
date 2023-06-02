@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 export default function Home() {
   return (
     <main
-      className='flex '
+      className="min-h-screen"
     >
     <div>
      <Navbar/>
