@@ -24,21 +24,21 @@ const Jackpots = ({jackpots}) => {
 
 const Jackpot = ({jackpot}) => {
   return (
-    <div className="w-full shadow-lg shadow-blue-300 rounded-xl overflow-hidden bg-slate-700 my-2 px-3 py-5">
-      <div className="flex justify-start item-center space-x-2">
+    <div className="w-full shadow-lg shadow-blue-300 rounded-xl overflow-hidden bg-stone-500 my-2 px-3 py-5">
+      <div className="flex justify-start item-center space-x-2 ">
         <Image
          width={100}
          height = {512}
          src={jackpot.image} 
          alt= "icon"
-         className="rounded-lg w-20"/>
+         className="rounded-lg w-20 "/>
          <div>
           <p className="text-blue-300"> Upto: {jackpot.prize}  ETH</p>
           <p className="text-sm text-gray-300">Draws On: {jackpot.drawsAt}</p>
          </div>
       </div>
       <div>
-        <p className="font-semibold pb-2 text-blue-300">{jackpot.title}</p>
+        <p className="font-semibold pb-2 text-blue-200">{jackpot.title}</p>
         <p className="text-sm leading-5 pb-6 text-gray-300"> {jackpot.description}</p>
       </div>
       <Link href={'/jackpots/' + jackpot.id}

@@ -8,8 +8,8 @@ const  background = 'https://images.unsplash.com/photo-1464618663641-bbdd760ae84
 const Hero = () => {
   return(
     <diV
-    className=" p-32 md:px-40 "
-    style={{ background: `url('${background}')  fixed no-repeat top/cover `}}
+    className="  p-32 md:px-40 "
+    style={{ background: `url('${background}') fixed no-repeat top/cover `}}
     >
       <div className="flex  items-center justify-between text-white py-5">
         <div>
@@ -18,14 +18,13 @@ const Hero = () => {
           <h3 className="text-xl font-semibold mt-6"> Your Chance to Strike it Rich - Join Our Lottery Today</h3>
           <p className="mt-2" >Winning Made Easy - Play Our Lottery and Change Your Fate!</p>
         </div>
-        <div  className="hidden lg:flex items-center space-x-3 font-semibold opacity-50 ">
-          
+        <div  className="hidden lg:flex items-center space-x-3 font-semibold ">
           <Image
             src = "https://png.pngtree.com/png-clipart/20210311/original/pngtree-retro-style-design-of-jackpot-logo-png-image_6023680.png"
             width = '2000'
             height = '1008'
             alt ="loto logo"
-            className="rounded-full w-80 z-0"
+            className="rounded-full w-80"
           />
           </div>
           </div>
