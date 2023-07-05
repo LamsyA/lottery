@@ -8,8 +8,8 @@ const  background = 'https://images.unsplash.com/photo-1464618663641-bbdd760ae84
 const Hero = () => {
   return(
     <diV
-    className="  p-32 md:px-40 "
-    style={{ background: `url('${background}') fixed no-repeat top/cover `}}
+    className=" p-32 md:px-40 "
+    style={{ background: `url('${background}')  fixed no-repeat top/cover `}}
     >
       <div className="flex  items-center justify-between text-white py-5">
         <div>
@@ -25,7 +25,7 @@ const Hero = () => {
             width = '2000'
             height = '1008'
             alt ="loto logo"
-            className="rounded-full w-80"
+            className="rounded-full w-80 z-0"
           />
           </div>
           </div>
